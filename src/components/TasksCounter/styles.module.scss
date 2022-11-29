@@ -1,0 +1,21 @@
+.taskCounter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid teal;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(#6fecc7, 0.5);
+}

@@ -1,0 +1,46 @@
+.inputEdit {
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid teal;
+}
+
+.checkboxItem {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.edit {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 15px;
+  color: #6b6b6b;
+  font-weight: bold;
+  margin: 10px 0px 20px 20px;
+  cursor: pointer;
+  &:hover {
+    color: rgb(87, 181, 224);
+    border: 2px solid;
+  }
+}
+
+.clearTasksBtn {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 15px;
+  color: #6b6b6b;
+  font-weight: bold;
+  margin: 10px 0px 10px 10px;
+  cursor: pointer;
+  &:hover {
+    color: red;
+    border: 2px solid;
+  }
+}

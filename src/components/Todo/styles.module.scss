@@ -1,0 +1,141 @@
+.todo {
+  width: clamp(300px, 50%, 1000px);
+  padding: 30px;
+  border-radius: 25px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: 1px 0px 16px -1px rgba(#000, 0.27);
+}
+
+.filterTasks {
+  margin-bottom: 20px;
+}
+
+.allTasks {
+  width: 100px;
+  height: 22px;
+  border-radius: 11px 0px 0px 11px;
+  border: none;
+  background-color: rgba(242, 243, 242, 0.945);
+  cursor: pointer;
+}
+
+.activeTasks {
+  width: 100px;
+  height: 22px;
+  margin: 0px 7px 0px 7px;
+  border: none;
+  background-color: rgba(242, 243, 242, 0.945);
+  cursor: pointer;
+}
+
+.complitedTasks {
+  width: 100px;
+  height: 22px;
+  border-radius: 0px 11px 11px 0px;
+  border: none;
+  background-color: rgba(242, 243, 242, 0.945);
+  cursor: pointer;
+}
+
+.searchContainer {
+  margin-bottom: 30px;
+}
+
+.todoInputButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+$common-border-radius: 30px;
+
+.searchInput {
+  border-radius: 30px;
+  font-size: 22px;
+  height: 50px;
+  border: 2px solid teal;
+  flex-basis: 80%;
+  padding-left: 20px;
+  outline: none;
+  &:focus {
+    border-color: #c8c8c8;
+  }
+}
+
+.addButton {
+  width: 90px;
+  height: 50px;
+  border: 2px solid teal;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 22px;
+  color: #6b6b6b;
+  cursor: pointer;
+  border-radius: $common-border-radius;
+  &:hover {
+    background-color: rgb(250, 245, 245);
+    border: 3px solid teal;
+  }
+  cursor: pointer;
+}
+
+.clearTasksBtn {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 15px;
+  color: #6b6b6b;
+  font-weight: bold;
+  margin: 10px 0px 10px 10px;
+  cursor: pointer;
+  &:hover {
+    color: red;
+    border: 2px solid;
+  }
+}
+
+.saveBtn {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 15px;
+  color: #6b6b6b;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: teal;
+    border: 2px solid;
+  }
+}
+
+.removeBtn {
+  width: 150px;
+  height: 30px;
+  margin: 20px 0;
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 15px;
+  color: #6b6b6b;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: rgb(110, 11, 11);
+    border: 2px solid;
+  }
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+  padding-bottom: 7px;
+}
